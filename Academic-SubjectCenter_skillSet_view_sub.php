@@ -12,6 +12,16 @@
 <div class="ms-content-wrapper">
   <div class="row">
     <div class="col-md-12">
+        <div class="ms-panel-header">
+            <h6 class="my-4 d-md-inline"><b>Subject Skill Set | </b><small>View</small></h6>
+            <div class="float-md-right">
+                <a href="#" class="btn btn-primary width70" id="to_hide_1" type="submit">Delete Skill Set</a>
+                <a href="#" class="btn btn-primary width70 d-none" id="to_show_1" type="submit">Edit Skill Set</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb pl-0">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -21,16 +31,6 @@
           <li class="breadcrumb-item active" aria-current="page">English</li>
         </ol>
       </nav>
-    </div>
-    <div class="col-md-12">
-        <div class="ms-panel-header">
-            <h6 class="my-4 d-md-inline"><b>Subject Skill Set | </b><small>View</small></h6>
-            <div class="float-md-right">
-                <a href="#" class="btn btn-primary width70" id="to_hide_1" type="submit">Delete Skill Set</a>
-                <a href="#" class="btn btn-primary width70 d-none" id="to_show_1" type="submit">Edit Skill Set</a>
-                <div class="clearfix"></div>
-            </div>
-        </div>
     </div>
     <div class="col-md-8 m-auto">
         <div class="row mt-5">
@@ -69,6 +69,46 @@
                         <tr>
                             <td>Reading</td>
                             <td>-</td>
+                            <td><a href="#" data-toggle="modal" data-target="#modal_addSkill">Add Subject Skills</a></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="This Skill Set Has Dependencies"></i>
+            </div>
+        </div>
+        <div class="row d-none mt-4" id="to_show_3">
+            <div class="col-md-12">    
+                <div class="table-responsive">
+                    <table class="table table-bordered thead-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">Skill Name</th>
+                            <th scope="col">Formula</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bold">Reading</td>
+                            <td id="to_hide_table"><p class="text-center">-</p></td>
+                            <td><a href="#" data-toggle="modal" data-target="#modal_addSkill">Add Subject Skills</a></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text-muted text-center my-2">-Pronounciation</p></td>
+                            <td class="border-0"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text-muted text-center my-2">-Comprehesion</p></td>
+                            <td class="border-0 bordercstm"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Reading</td>
+                            <td id="to_hide_table"><p class="text-center">-</p></td>
                             <td><a href="#" data-toggle="modal" data-target="#modal_addSkill">Add Subject Skills</a></td>
                         </tr>
                     </tbody>
@@ -119,11 +159,11 @@
                 </div>
                 <div class="row mx-1">
                     <div class="custom-control custom-radio custom-control mt-3 col-md-6">
-                        <input type="radio" class="custom-control-input" id="calc_0" name="example" value="customEx">
+                        <input type="radio" class="custom-control-input" id="calc_0" name="example1" value="customEx4">
                         <label class="custom-control-label" for="calc_0">Calculate Skill Score</label><br>
                     </div>
                     <div class="custom-control custom-radio custom-control mt-3 col-md-6">
-                        <input type="radio" class="custom-control-input" id="dcalc_0" name="example" value="customEx">
+                        <input type="radio" class="custom-control-input" id="dcalc_0" name="example1" value="customEx1">
                         <label class="custom-control-label" for="dcalc_0">Don't Calculate Skill Score</label><br>
                     </div>
                 </div>
@@ -141,11 +181,11 @@
                 </div>
                 <div class="row mx-1">
                     <div class="custom-control custom-radio custom-control mt-3 col-md-6">
-                        <input type="radio" class="custom-control-input" id="calc" name="example" value="customEx">
+                        <input type="radio" class="custom-control-input" id="calc" name="example2" value="customEx2">
                         <label class="custom-control-label" for="calc">Calculate Skill Score</label><br>
                     </div>
                     <div class="custom-control custom-radio custom-control mt-3 col-md-6">
-                        <input type="radio" class="custom-control-input" id="dcalc" name="example" value="customEx">
+                        <input type="radio" class="custom-control-input" id="dcalc" name="example2" value="customEx3">
                         <label class="custom-control-label" for="dcalc">Don't Calculate Skill Score</label><br>
                     </div>
                 </div>
@@ -163,25 +203,21 @@
                 </div>
                 <div class="row my-5">
                     <div class="col-md-12 my-2">
+                         <div class="custom-control custom-radio custom-control mt-3">
+                            <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+                            <label class="custom-control-label" for="customRadio">Sum</label><br>
+                            <small>Score Of All Skill Will Be Added To Derive The Skill Set Score</small>
+                        </div>
                         <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="sum" name="example_1" value="customEx">
-                            <label class="custom-control-label" for="example_1">Sum</label><br>
-                        </div>         
-                        <small>The Scores Of All Kinds Of The SKills Will Be Added To Derive The Skills Set Score</small>
-                    </div>
-                    <div class="col-md-12 my-2">
+                            <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                            <label class="custom-control-label" for="customRadio2">Average</label><br>
+                            <small>Score Of All Skill Will Be Added And Divided By THe Number Of The Skills To Get The Average Which Will Be The Score Of The Skill Set</small>
+                        </div>
                         <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="sum12" name="example_2" value="customEx">
-                            <label class="custom-control-label" for="example_2">Average</label><br>
-                        </div>         
-                        <small>The Scores Of All The Skills Will Be Added And Divided By The Number Of Skills To Get The Average , Which Will Be The Score Of Skill Set</small>
-                    </div>
-                    <div class="col-md-12 my-2">
-                        <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="sum" name="example_3" value="customEx">
-                            <label class="custom-control-label" for="example_3">Best</label><br>
-                        </div>         
-                        <small>The Scores Of All The Skills Will Be Compared And The Highest Score Among The Skills Will Be The Skill Set Score</small>
+                            <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="customEx">
+                            <label class="custom-control-label" for="customRadio3">Best Of</label><br>
+                            <small>Score Of All Skill Will Be Compared And The Highest Score Among The Skills Will Be The Skill Set Score</small>
+                        </div>
                     </div>
                 </div>
                 <hr>
@@ -263,28 +299,21 @@
                     <div class="col-md-12 my-2">
                         <div class="custom-control custom-radio custom-control mt-3">
                             <input type="radio" class="custom-control-input" id="sum" name="example">
-                            <label class="custom-control-label" for="example">Sum</label><br>
+                            <label class="custom-control-label" for="sum">Sum</label><br>
                             <small>The Scores Of All Kinds Of The SKills Will Be Added To Derive The Skills Set Score</small>
                         </div>         
                     </div>
                     <div class="col-md-12 my-2">
                         <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="sum" name="example">
-                            <label class="custom-control-label" for="example">Sum</label><br>
-                            <small>The Scores Of All Kinds Of The SKills Will Be Added To Derive The Skills Set Score</small>
-                        </div>         
-                    </div>
-                    <div class="col-md-12 my-2">
-                        <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="" name="example">
-                            <label class="custom-control-label" for="example">Average</label><br>
+                            <input type="radio" class="custom-control-input" id="avg" name="example">
+                            <label class="custom-control-label" for="avg">Average</label><br>
                             <small>The Scores Of All The Skills Will Be Added And Divided By The Number Of Skills To Get The Average , Which Will Be The Score Of Skill Set</small>
                         </div>         
                     </div>
                     <div class="col-md-12 my-2">
                         <div class="custom-control custom-radio custom-control mt-3">
-                            <input type="radio" class="custom-control-input" id="" name="example">
-                            <label class="custom-control-label" for="example">Best</label><br>
+                            <input type="radio" class="custom-control-input" id="best" name="example">
+                            <label class="custom-control-label" for="best">Best</label><br>
                             <small>The Scores Of All The Skills Will Be Compared And The Highest Score Among The Skills Will Be The Skill Set Score</small>
                         </div>         
                     </div>
@@ -301,11 +330,13 @@
 <script>
     var to_show_1 = document.getElementById("to_show_1").classList;
     var to_show_2 = document.getElementById("to_show_2").classList;
+    var to_show_3 = document.getElementById("to_show_3").classList;
     var to_hide_1 = document.getElementById("to_hide_1").classList;
     var to_hide_2 = document.getElementById("to_hide_2").classList;
     function showHide(){
         to_show_1.remove("d-none");
         to_show_2.remove("d-none");
+        to_show_3.remove("d-none");
         to_hide_1.add("d-none");
         to_hide_2.add("d-none");
     };

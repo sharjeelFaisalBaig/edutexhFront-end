@@ -6,7 +6,16 @@
 <!-- Body Content Wrapper -->
 <div class="ms-content-wrapper">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
+        <div class="ms-panel-header">
+            <h6 class="my-4 d-md-inline"><b>Subject Center| </b><small>Subject Skill Set</small></h6>
+            <div class="float-md-right">
+                <a href="#" class="btn btn-primary m-0" data-target="#modal_createSkillSet" data-toggle="modal">Create Skill Set</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb pl-0">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -16,11 +25,10 @@
         </ol>
       </nav>
     </div>
-    <div class="col-md-6">
-        <div class="text-md-right">
-            <a href="#" class="btn btn-primary m-0" data-target="#modal_createSkillSet" data-toggle="modal">Create Skill Set</a>
-        </div>
-    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="col-md-8 m-auto">
         <div class="row d-none" id="to_show_2">
             <div class="col-md-8 offset-md-2">
