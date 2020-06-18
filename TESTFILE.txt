@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Hello This is haris jamil and now i update this file...
+=======
+Hello This is haris jamil
+
+Hello Java World haris
+>>>>>>> a1c229109113f77b1f42aef100b961e7ba9c5831
