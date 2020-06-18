@@ -219,7 +219,7 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="Academic-SubjectCenter_sub.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/subject%20center.png" width="60" alt="card_img">
                                 </div>

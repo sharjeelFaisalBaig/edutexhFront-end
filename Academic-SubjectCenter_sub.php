@@ -33,7 +33,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-SubjectCenter_skillSet_sub.php">
             <h5>Subject Skill Sets</h5>
             <p>Manage Subject Skill Sets, Skill Sets and Sub Skills</p>
           </a>
