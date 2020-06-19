@@ -85,11 +85,11 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="DisciplineModule.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/Descpline.png" width="60" alt="card_img">
                                 </div>
-                                <h6>Descpline</h6>
+                                <h6>Discipline</h6>
                             </a>
                         </div>
                     </div>
