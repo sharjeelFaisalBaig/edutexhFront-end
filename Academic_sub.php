@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-12">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb pl-0">
+                    <ol class="breadcrumb pl-0 pt-0 m-0">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Academic</li>
                     </ol>
@@ -85,11 +85,11 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href="DisciplineModule.php">
+                            <a href=".php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/Descpline.png" width="60" alt="card_img">
                                 </div>
-                                <h6>Discipline</h6>
+                                <h6>Descpline</h6>
                             </a>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                         <div class="text-center">
                             <a href=".php">
                                 <div class="ms-card-img">
-                                    <img src="assets/img/tabsIcon/Timetable Icon.png" width="60" alt="card_img">
+                                    <img src="assets/img/tabsIcon/timetable-icon.png" width="60" alt="card_img">
                                 </div>
                                 <h6>Timetable</h6>
                             </a>
@@ -179,7 +179,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="placement.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/Placement.png" width="60" alt="card_img">
                                 </div>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href="Academic-SubjectCenter_sub.php">
+                            <a href=".php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/subject%20center.png" width="60" alt="card_img">
                                 </div>
