@@ -42,27 +42,37 @@
                             <th scope="col">SI.NO.</th>
                             <th scope="col">Tags</th>
                             <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td> 
-                            <td>Reference Book</td>
-                            <td><span class="asterisk_color">x</span></td>
+                            <td class="flex"><input type="text" name="" placeholder="Reference Book" value="Reference Book" class="form-control col-sm-6 marginRight marginTop"><button class="btn btn-primary">OK</button><span class="marginTop_half text-danger d-inline">&nbsp;Cancel</span></td>
+                            <td></td>
+                            <td><span class="text-danger d-inline"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span>Tagged Books</td>
+                            <td><span class="text-danger d-inline">x</span></td>
                         </tr>
                         <tr>
                             <td>2</td> 
                             <td>Islamic</td>
+                            <td></td>
+                            <td></td>
                             <td><span class="asterisk_color">x</span></td>
                         </tr>
                         <tr>
                             <td>3</td> 
                             <td>Kids</td>
+                            <td></td>
+                            <td></td>
                             <td><span class="asterisk_color">x</span></td>
                         </tr>
                         <tr>
                             <td>4</td> 
                             <td>History</td>
+                            <td></td>
+                            <td></td>
                             <td><span class="asterisk_color">x</span></td>
                         </tr>
                     </tbody>

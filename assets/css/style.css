@@ -7466,3 +7466,30 @@ body:not(.ms-settings-open) .ms-settings-toggle:hover{
     left: 75%;
   }
 }
+.height_style {
+    padding: unset;
+    top: 10px;
+}
+.right_border {
+    border-right: 1px solid #ccc;
+}
+.rowMargin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.marginTop{
+  margin-top: 1rem;
+}
+.marginTop_half{
+  margin-top: 1.5rem;
+}
+.spacing{
+  height: 15px;
+}
+.flex{
+  display: inline-flex;
+  width: 100%;
+}
+.marginRight {
+    margin-right: 10px;
+}

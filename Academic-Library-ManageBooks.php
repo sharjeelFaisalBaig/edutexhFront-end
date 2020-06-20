@@ -77,7 +77,7 @@
                                     <td>Hazrat Molana Ashraf Ali Thanvi R.A</td>
                                     <td>Istamic,Reference Book</td>
                                     <td>Acaliable</td>
-                                    <td class="border-0"><a href="#">View</a></td>
+                                    <td class="border-0"><a href="Academic-Library-ViewBooks.php">View</a></td>
                                     <td class="border-0"><a href="#">Edit</a></td>
                                     <td class="border-0"><a href="#">Delete</a></td>
                                 </tr>
@@ -87,7 +87,7 @@
                                     <td>Hazrat Molana Ashraf Ali Thanvi R.A</td>
                                     <td>Istamic,Reference Book</td>
                                     <td>Acaliable</td>
-                                    <td class="border-0"><a href="#">View</a></td>
+                                    <td class="border-0"><a href="Academic-Library-ViewBooks.php">View</a></td>
                                     <td class="border-0"><a href="#">Edit</a></td>
                                     <td class="border-0"><a href="#">Delete</a></td>
                                 </tr>
@@ -97,7 +97,7 @@
                                     <td>Hazrat Molana Ashraf Ali Thanvi R.A</td>
                                     <td>Istamic,Reference Book</td>
                                     <td>Acaliable</td>
-                                    <td class="border-0"><a href="#">View</a></td>
+                                    <td class="border-0"><a href="Academic-Library-ViewBooks.php">View</a></td>
                                     <td class="border-0"><a href="#">Edit</a></td>
                                     <td class="border-0"><a href="#">Delete</a></td>
                                 </tr>
@@ -107,7 +107,7 @@
                                     <td>Hazrat Molana Ashraf Ali Thanvi R.A</td>
                                     <td>Istamic,Reference Book</td>
                                     <td>Acaliable</td>
-                                    <td class="border-0"><a href="#">View</a></td>
+                                    <td class="border-0"><a href="Academic-Library-ViewBooks.php">View</a></td>
                                     <td class="border-0"><a href="#">Edit</a></td>
                                     <td class="border-0"><a href="#">Delete</a></td>
                                 </tr>

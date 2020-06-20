@@ -55,6 +55,56 @@
                 </table>
             </div>
         </div>
+        <div class="col-md-4 offset-md-4 my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-disabled">Book Number</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary"> 
+                        <strong>:&nbsp; A9</strong>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-disabled">Book Holder</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary"> 
+                        <strong>:&nbsp; Muhammad Kaleem</strong>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-disabled">Book issue date</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary"> 
+                        <strong>:&nbsp; 26-05-2020</strong>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-disabled">Book due date</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary"> 
+                        <strong>:&nbsp; 26-05-2020</strong>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-danger d-inline">Due date has been exceeded:</p>
+                </div>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                    <p class="text-disabled">Enter fine amount</p>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="amount" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-2 offset-6">
+                <button class="btn btn-primary">Return</button>
+            </div>
+        </div>
    	</div>
 <!-- footer -->
 

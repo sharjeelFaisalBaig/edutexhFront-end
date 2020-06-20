@@ -51,7 +51,7 @@
 
                     <div class="form-group row">
                     <div class="col-md-2"></div>
-                        <label class="col-sm-2 col-form-label">Barcode<span class="asterisk_color">&nbsp;*</span></label>
+                        <label class="col-sm-2 col-form-label">Barcode<span class="text-danger d-inline">&nbsp;*</span></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="e_number" placeholder="3424822" required="">
                     </div>
@@ -59,7 +59,7 @@
                     
                     <div class="form-group row">
                     <div class="col-md-2"></div>
-                        <label class="col-sm-2 col-form-label">Book Number<span class="asterisk_color">&nbsp;*</span></label>
+                        <label class="col-sm-2 col-form-label">Book Number<span class="text-danger d-inline">&nbsp;*</span></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="e_number" placeholder="A1" required="">
                     </div>
@@ -67,14 +67,14 @@
 
                     <div class="form-group row">
                     <div class="col-md-2"></div>
-                        <label class="col-sm-2 col-form-label">Title<span class="asterisk_color">&nbsp;*</span></label>
+                        <label class="col-sm-2 col-form-label">Title<span class="text-danger d-inline">&nbsp;*</span></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="e_number" placeholder="Tasheel Bihsti Zewar" required="">
                     </div>
                     </div>
                     <div class="form-group row">
                     <div class="col-md-2"></div>
-                        <label class="col-sm-2 col-form-label">Author<span class="asterisk_color">&nbsp;*</span></label>
+                        <label class="col-sm-2 col-form-label">Author<span class="text-danger d-inline">&nbsp;*</span></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="e_number" placeholder="Hazrat Molana Ashraf Ali Thanvi R.A" required="">
                     </div>
