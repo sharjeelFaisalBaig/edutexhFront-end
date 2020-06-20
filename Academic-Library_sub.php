@@ -21,9 +21,9 @@
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library_librarySettings.php">
             <h5>Library Settings</h5>
             <p>Initial library setting for courses</p>
           </a>
@@ -31,9 +31,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-ManageBooks.php">
             <h5>Manage Books</h5>
             <p>Manage library books</p>
           </a>
@@ -41,9 +41,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-SearchBook.php">
             <h5>Search Book</h5>
             <p>Search for a book here</p>
           </a>
@@ -51,9 +51,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-IssueBook.php">
             <h5>Issue Book</h5>
             <p>Issue books here</p>
           </a>
@@ -61,9 +61,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-BookRenewal.php">
             <h5>Book Renewal</h5>
             <p>Renew books here</p>
           </a>
@@ -71,9 +71,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-ReturnBook.php">
             <h5>Return Book</h5>
             <p>Manage book returns</p>
           </a>
@@ -81,9 +81,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library_LibraryFinesReceipt.php">
             <h5>Library Fines</h5>
             <p>Library Fine Receipts</p>
           </a>
@@ -91,9 +91,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library-MovementLog.php">
             <h5>Movement Log</h5>
             <p>Issued/Renewed Book Status</p>
           </a>
@@ -101,9 +101,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library_ManageTags.php">
             <h5>Manage Tags</h5>
             <p>Manage tags here</p>
           </a>
@@ -111,9 +111,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library_ManageBarcode.php">
             <h5>Manage Barcodes</h5>
             <p>Manage book's barcode</p>
           </a>
@@ -121,9 +121,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-Library_ManageBookAdditionalDetails.php">
             <h5>Manage Book Additional Details</h5>
             <p>Additional details</p>
           </a>
