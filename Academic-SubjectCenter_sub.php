@@ -23,7 +23,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="Academic-SubjectCenter_courseSubject_sub.php">
             <h5>Course Subject</h5>
             <p>Manage Subject Groups, Elective Groups and Subjects on the Course level</p>
           </a>
@@ -50,11 +50,8 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
-
-
 <!-- footer -->
 
 <?php require 'footer.php';?>
