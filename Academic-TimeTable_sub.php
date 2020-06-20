@@ -21,9 +21,9 @@
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class=" text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-examination_setting_sub.php">
+          <a href="timetablesetting.php">
             <h5>Settings</h5>
             <p>Timetable settings</p>
           </a>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class=" text-center height130">
         <div class="ms-card-body">
           <a href="Academic-attendance_sub.php">
             <h5>Manage Subjects</h5>
@@ -41,22 +41,20 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-TimeTable_classAllocate_sub.php">
             <h5>ClassRoom Allocation</h5>
             <p>Allocate class rooms</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
+            
           </a>
         </div>
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="manageclasstimingset.php">
             <h5>Manage Class Timing Set</h5>
             <p>Create and edit class timing sets</p>
           </a>
@@ -64,9 +62,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="createweekdays.php">
             <h5>Create Weekdays</h5>
             <p>Set weekdays and class timing sets for each batch</p>
           </a>
@@ -74,9 +72,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="managetimetable.php">
             <h5>Manage TimeTables</h5>
             <p>Create and manage timetable allocations</p>
           </a>
@@ -84,7 +82,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-GradeBook_reports_sub.php">
             <h5>View Timetables</h5>
@@ -94,7 +92,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-GradeBook_reports_sub.php">
             <h5>Teacher Timetable</h5>
@@ -104,9 +102,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="workallocation.php">
             <h5>Work Allotment</h5>
             <p>Assign subjects to teachers</p>
           </a>
@@ -114,7 +112,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-GradeBook_reports_sub.php">
             <h5>Institutional Timetable</h5>
@@ -124,20 +122,17 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-TimeTable_timetableTrack_sub.php">
             <h5>Timetable Tracker</h5>
             <p>Manage Timetable Tracker</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height130">
+      <div class="text-center height130">
         <div class="ms-card-body">
           <a href="Academic-GradeBook_reports_sub.php">
             <h5>Automatic TimeTable Generator</h5>

@@ -37,8 +37,8 @@
     <div class="ms-panel w-100">
         <div class="ms-panel-header text-left pb-1">
          
-         <p>Configure fields to capture additional data related to a vehical</p>
-     </div>
+            <p>Configure fields to capture additional data related to a vehical</p>
+        </div>
        <div class="col-md-8 offset-4">
         <div class="ms-panel w-50">
             
