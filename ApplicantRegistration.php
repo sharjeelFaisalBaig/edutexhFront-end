@@ -14,8 +14,8 @@
                 <div class="float-md-right">
                     <a href="javascript:void(0);" data-toggle="modal" data-target="#modalonclose" class="btn btn-primary m-md-auto">Add Course</a>
                     <a href="ApplicantRegistration_Setting.php" class="m-0 btn btn-primary width70 m-md-auto">Setting</a>
-                    <a href="Discipline Module_New.php" class="m-0 btn btn-primary width70 m-md-auto">Manage Pins</a>
-                    <a href="Discipline Module_New.php" class="m-0 btn btn-primary m-md-auto width70 m-md-auto">Preview</a>
+                    <a href="PinGroups.php" class="m-0 btn btn-primary width70 m-md-auto">Manage Pins</a>
+                    <a href="Preview_RegistrationForm.php" class="m-0 btn btn-primary m-md-auto width70 m-md-auto">Preview</a>
 
 
                 </div>
@@ -81,7 +81,7 @@
             <td><label></label>MBA(2.5 Years)(Master Of Business Adiministration</td> 
             <td>0</td>
             <td>500</td>
-            <td><a href="applicantReg-view-details.php"><b>Applicant</b></a><label>&nbsp;&nbsp;&nbsp;&nbsp;</label><a href=""><b>Settings</b></a></td>
+            <td><a href="applicantReg-view-details.php"><b>Applicant</b></a><label>&nbsp;&nbsp;&nbsp;&nbsp;</label><a href="ApplicantRegistration_Setting1.php"><b>Settings</b></a></td>
         </tr>
     </tbody>
 </table>

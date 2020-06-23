@@ -99,7 +99,7 @@
                 </div>
             </div>
         </div>
-        <div class="row alert alert-dark mt-2">
+        <div class="row mt-2 mb-0 alert alert-dark">
             <div class="col-md-1 border-right-cstm"></div>
             <div class="col-md-3 offset-md-1">
                 <p class="text-muted">Applicant Name</p>
@@ -115,15 +115,17 @@
             </div>
             <div class="col-md-1 border-left-cstm"></div>
         </div>
-        <div class="alert alert-dark row margin_cstm" role="alert">
-            <p class="col-md-2 bold">Registration No: 1</p>
-            <div class="col-md-4 bold offset-md-6">
-                <p class="float-md-right">Application Date : 27-MAY-2020</p>
+        <div class="row mb-0 alert alert-dark">
+            <div class="col-md-6">
+                <p class="bold">Registration No: 1</p>                
+            </div>
+            <div class="col-md-6 text-md-right">
+                <p class="font-weight-bold">Application Date : 27-MAY-2020</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="accordion has-gap ms-accordion-chevron margin_cstm" id="accordionExample2">
+            <div class="col-md-12 px-md-0">
+                <div class="accordion has-gap ms-accordion-chevron" id="accordionExample2">
                     <div class="card">
                         <div class="card-header" data-toggle="collapse" role="button" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                             <span>Student Personal Details</span>
@@ -196,7 +198,7 @@
         <!--  -->
         <!--  -->
         <!--  -->
-        <div class="row alert alert-dark mt-5">
+        <div class="row mt-2 mb-0 alert alert-dark">
             <div class="col-md-1 border-right-cstm"></div>
             <div class="col-md-3 offset-md-1">
                 <p class="text-muted">Applicant Name</p>
@@ -212,15 +214,17 @@
             </div>
             <div class="col-md-1 border-left-cstm"></div>
         </div>
-        <div class="alert alert-dark row margin_cstm" role="alert">
-            <p class="col-md-2 bold">Registration No: 1</p>
-            <div class="col-md-4 bold offset-md-6">
-                <p class="float-md-right">Application Date : 27-MAY-2020</p>
+        <div class="row mb-0 alert alert-dark">
+            <div class="col-md-6">
+                <p class="bold">Registration No: 1</p>                
+            </div>
+            <div class="col-md-6 text-md-right">
+                <p class="font-weight-bold">Application Date : 27-MAY-2020</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="accordion has-gap ms-accordion-chevron margin_cstm" id="accordionExample2">
+            <div class="col-md-12 px-md-0">
+                <div class="accordion has-gap ms-accordion-chevron" id="accordionExample2">
                     <div class="card">
                         <div class="card-header" data-toggle="collapse" role="button" data-target="#collapse5" aria-expanded="true" aria-controls="collapseFour">
                             <span>Student Personal Details</span>

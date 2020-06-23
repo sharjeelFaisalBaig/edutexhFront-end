@@ -3,8 +3,6 @@
 <?php require 'header.php';?>
 
 <!-- header -->
-
-
 <!-- Body Content Wrapper -->
 <div class="ms-content-wrapper">
     <div class="row">
@@ -13,8 +11,8 @@
                 <h6 class="my-4 d-md-inline"><b>Students | </b><small>Home</small></h6>
                 <div class="float-md-right">
                     <a href="Academic-studentAdmission.php" class="btn btn-primary m-0">Admission</a>
-                    <a href="#" class="btn btn-primary m-0">View All </a>
-                    <a href="#" class="btn btn-primary m-0">Advanced</a>
+                    <a href="Academic-student_viewAll.php" class="btn btn-primary m-0">View All </a>
+                    <a href="Academic-student_advance.php" class="btn btn-primary m-0">Advanced</a>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -70,3 +68,8 @@
         </div>
     </div>
 </div>
+<!-- footer -->
+
+<?php require 'footer.php';?>
+
+<!-- footer -->

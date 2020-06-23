@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-2 m-md-auto"> <!-- DropDowns -->
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="ApplicantRegistration.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/ApplicantRegistration.png" width="60" alt="card_img">
                                 </div>
@@ -209,7 +209,7 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="Academic-student.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/students.png" width="60" alt="card_img">
                                 </div>
