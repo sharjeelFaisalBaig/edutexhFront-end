@@ -84,7 +84,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="viewtimetables.php">
             <h5>View Timetables</h5>
             <p>View the timetable for a class</p>
           </a>
@@ -94,7 +94,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="teachertimetable.php">
             <h5>Teacher Timetable</h5>
             <p>View timetable of teachers</p>
           </a>
