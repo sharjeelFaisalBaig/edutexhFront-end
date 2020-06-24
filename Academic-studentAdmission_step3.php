@@ -1,6 +1,6 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <!-- Body Content Wrapper -->
@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="ms-panel-header">
-                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Step 3</small></h6>
+                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Add Parent / Guardian</small></h6>
             </div>
         </div>
         <div class="col-md-12">
@@ -181,6 +181,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->

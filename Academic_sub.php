@@ -1,8 +1,6 @@
-
-
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 
@@ -21,7 +19,8 @@
             </div>
             <div class="col-md-8 m-md-auto">
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 m-md-auto"> <!-- DropDowns -->
+                    <div class="col-md-2 col-sm-2 m-md-auto">
+                        <!-- DropDowns -->
                         <div class="text-center">
                             <a href="ApplicantRegistration.php">
                                 <div class="ms-card-img">
@@ -35,7 +34,7 @@
                         <div class="text-center">
                             <a href="Academic-attendance_sub.php">
                                 <div class="ms-card-img">
-                                    <img src="assets/img/tabsIcon/Attendance.png"  width="60" alt="tab_icon">
+                                    <img src="assets/img/tabsIcon/Attendance.png" width="60" alt="tab_icon">
                                 </div>
                                 <h6>Attendance</h6>
                             </a>
@@ -45,7 +44,7 @@
                         <div class="text-center">
                             <a href="assignment.php">
                                 <div class="ms-card-img">
-                                    <img src="assets/img/tabsIcon/Assignment.png"  width="60" alt="tab_icon">
+                                    <img src="assets/img/tabsIcon/Assignment.png" width="60" alt="tab_icon">
                                 </div>
                                 <h6>Assignment</h6>
                             </a>
@@ -55,7 +54,7 @@
                         <div class="text-center">
                             <a href="academic-batch-summary.php">
                                 <div class="ms-card-img">
-                                    <img src="assets/img/tabsIcon/batch%20summary.png"  width="60" alt="tab_icon">
+                                    <img src="assets/img/tabsIcon/batch%20summary.png" width="60" alt="tab_icon">
                                 </div>
                                 <h6>Batch Summary</h6>
                             </a>
@@ -65,7 +64,7 @@
                         <div class="text-center">
                             <a href="calendar.php">
                                 <div class="ms-card-img">
-                                    <img src="assets/img/tabsIcon/Calender.png"  width="60" alt="tab_icon">
+                                    <img src="assets/img/tabsIcon/Calender.png" width="60" alt="tab_icon">
                                 </div>
                                 <h6>Calender</h6>
                             </a>
@@ -73,7 +72,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 m-md-auto"> <!-- DropDowns -->
+                    <div class="col-md-2 col-sm-2 m-md-auto">
+                        <!-- DropDowns -->
                         <div class="text-center">
                             <a href="Academic-certificate_sub.php">
                                 <div class="ms-card-img">
@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href="Academic-userProfile_sub.php">
+                            <a href="Academic-studentAdmission_profile.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/Profile.png" width="60" alt="card_img">
                                 </div>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="col-md-2 col-sm-2 m-md-auto">
                         <div class="text-center">
-                            <a href=".php">
+                            <a href="Academic-SubjectCenter_sub.php">
                                 <div class="ms-card-img">
                                     <img src="assets/img/tabsIcon/subject%20center.png" width="60" alt="card_img">
                                 </div>
@@ -228,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -238,9 +238,6 @@
 
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->
-
-
-

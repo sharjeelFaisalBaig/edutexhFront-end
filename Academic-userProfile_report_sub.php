@@ -15,13 +15,13 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb pl-0">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-          <li class="breadcrumb-item"><a href="userProfile_sub.php">Profile</a></li> 
+          <li class="breadcrumb-item"><a href="Academic-studentAdmission_profile.php">Profile</a></li> 
           <li class="breadcrumb-item active" aria-current="page">Report Center</li>
         </ol>
       </nav>
     </div>
     <div class="col-md-6 text-md-right">
-      <a href="Academic-userProfile_sub.php" class="btn btn-primary">Profile</a>
+      <a href="Academic-studentAdmission_profile.php" class="btn btn-primary">Profile</a>
     </div>
     <div class="col-md-8 m-auto">
       <div class="row my-5">

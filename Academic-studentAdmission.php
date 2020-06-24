@@ -1,6 +1,6 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 
@@ -26,7 +26,9 @@
     </div>
     <div class="col-md-8 m-auto">
         <div class="row my-4">
-            <p class="d-inline"> Fields Marked With </p><h6 class="text-danger d-inline"> *</h6><p class="d-inline"> Must Be Filled</p>
+            <p class="d-inline"> Fields Marked With </p>
+            <h6 class="text-danger d-inline"> *</h6>
+            <p class="d-inline"> Must Be Filled</p>
         </div>
         <div class="row">
             <h5>Personal Details</h5>
@@ -230,7 +232,7 @@
                 <div class="col-sm-6">
                     <input type="email" class="form-control" id="pin_code">
                 </div>
-            </div>   
+            </div>
         </form>
         <hr>
         <div class="row">
@@ -252,7 +254,7 @@
                         <i class="ms-checkbox-check"></i>
                     </label>
                 </div>
-            </div>  
+            </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Assign Transport</label>
                 <div class="col-sm-10">
@@ -283,6 +285,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->

@@ -1,6 +1,6 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <!-- Body Content Wrapper -->
@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="ms-panel-header">
-                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Step 6</small></h6>
+                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Additional Details</small></h6>
             </div>
         </div>
         <div class="col-md-12">
@@ -33,7 +33,9 @@
         </div>
         <hr>
         <div class="row my-4">
-            <p class="d-inline"> Fields Marked With </p><h6 class="text-danger d-inline"> *</h6><p class="d-inline"> Must Be Filled</p>
+            <p class="d-inline"> Fields Marked With </p>
+            <h6 class="text-danger d-inline"> *</h6>
+            <p class="d-inline"> Must Be Filled</p>
         </div>
         <div class="form-group row">
             <label class="col-sm-2 col-form-label">Passport No.</label>
@@ -61,6 +63,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->

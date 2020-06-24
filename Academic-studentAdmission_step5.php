@@ -1,6 +1,6 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <!-- Body Content Wrapper -->
@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="ms-panel-header">
-                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Step 5</small></h6>
+                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Previous Educational Details</small></h6>
             </div>
         </div>
         <div class="col-md-12">
@@ -61,6 +61,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 border-left">
+                    <hr>
                     <div class="row mt-4">
                         <label class="col-md-5 text-muted">Physics :</label>
                         <p class="col-md-2 text-success">300</p>
@@ -68,6 +69,7 @@
                             <i class="fas fa-minus-circle text-danger"></i>
                         </div>
                     </div>
+                    <hr>
                     <div class="row">
                         <label class="col-md-5 text-muted">Chemistry :</label>
                         <p class="col-md-2 text-success">100</p>
@@ -75,6 +77,7 @@
                             <i class="fas fa-minus-circle text-danger"></i>
                         </div>
                     </div>
+                    <hr>
                     <div class="row">
                         <label class="col-md-5 text-muted">Biology :</label>
                         <p class="col-md-2 text-success">200</p>
@@ -82,20 +85,21 @@
                             <i class="fas fa-minus-circle text-danger"></i>
                         </div>
                     </div>
+                    <hr>
                     <div class="row">
                         <a href="#" class="col-md-12">Add Subject</a>
                     </div>
                     <div class="row mt-4">
                         <h6 class="col-md-12">Subject Details</h6>
                     </div>
-                    <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Subject</label>
+                    <div class="form-group row mt-3">
+                        <label class="col-sm-3 col-form-label">Subject</label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control">
                         </div>
                     </div>
                     <div class="form-group row mt-2">
-                        <label class="col-sm-2 col-form-label">Marks</label>
+                        <label class="col-sm-3 col-form-label">Marks</label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control">
                         </div>
@@ -108,6 +112,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->

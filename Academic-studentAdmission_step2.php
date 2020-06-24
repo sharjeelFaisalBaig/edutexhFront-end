@@ -1,6 +1,6 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <!-- Body Content Wrapper -->
@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="ms-panel-header">
-                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Step 2</small></h6>
+                <h6 class="my-4 d-md-inline"><b>Admission | </b><small>Select Siblings</small></h6>
             </div>
         </div>
         <div class="col-md-12">
@@ -47,24 +47,24 @@
             <div class="col-md-12 mt-4">
                 <div class="table-responsive">
                     <table class="table table-bordered thead-primary">
-                    <thead>
-                        <tr>
-                            <th scope="col">SI No</th>
-                            <th scope="col">First Name</th>
-                            <th scope="col">Batch</th>
-                            <th scope="col">Admin No.</th>
-                            <th scope="col">Roll No.</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Arsalan Khan Saleem</td>
-                            <td>MBA-SEM II-A-2020</td>
-                            <td>E12</td>
-                            <td>-</td>
-                        </tr>
-                    </tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col">SI No</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Batch</th>
+                                <th scope="col">Admin No.</th>
+                                <th scope="col">Roll No.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Arsalan Khan Saleem</td>
+                                <td>MBA-SEM II-A-2020</td>
+                                <td>E12</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -73,6 +73,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->
