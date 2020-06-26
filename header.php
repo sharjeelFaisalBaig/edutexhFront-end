@@ -181,16 +181,24 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
               <li class="dropdown-menu-header">
-                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Welcome, Haris Jamil</span></h6>
+                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Haris Jamil</span></h6>
               </li>
               <li class="dropdown-divider"></li>
               <li class="ms-dropdown-list">
-                <a class="media fs-14 p-2" href="pages/prebuilt-pages/user-profile.php"> <span><i class="flaticon-user mr-2"></i> Profile</span>
+                <a class="media fs-14 p-2" href="#"> <span class="text-muted"><i class="mr-2"></i>Switch User :</span>
+                </a>
+                <a class="media fs-14 p-2" href="#"> <span class="bold"><i class="flaticon-user mr-2"></i>Arsalan Khan</span>
+                </a>
+                <a class="media fs-14 p-2" href="#"> <span><i class="flaticon-user mr-2"></i>Sabiha Khan</span>
+                </a>
+                <a class="media fs-14 p-2" href="#"> <span><i class="flaticon-user mr-2"></i>Kamran Khan</span>
+                </a>
+                <!-- <a class="media fs-14 p-2" href="pages/prebuilt-pages/user-profile.php"> <span><i class="flaticon-user mr-2"></i> Profile</span>
                 </a>
                 <a class="media fs-14 p-2" href="pages/apps/email.php"> <span><i class="flaticon-mail mr-2"></i> Inbox</span> <span class="badge badge-pill badge-info">3</span>
                 </a>
                 <a class="media fs-14 p-2" href="pages/prebuilt-pages/user-profile.php"> <span><i class="flaticon-gear mr-2"></i> Account Settings</span>
-                </a>
+                </a> -->
               </li>
               <li class="dropdown-divider"></li>
               <li class="dropdown-menu-footer">
