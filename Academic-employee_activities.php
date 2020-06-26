@@ -86,6 +86,10 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4 d-inline">
+            <a class="btn btn-primary d-inline">PDF Report</a>
+            <a class="btn btn-primary d-inline">CSV Report</a>
+        </div>
     </div>
 </div>
 <!-- footer -->

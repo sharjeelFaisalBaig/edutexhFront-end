@@ -24,7 +24,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="TimeTable_classAllocate_manageBuilding.php">
             <h5>Manage Buildings</h5>
             <p>Add Building</p>
           </a>
@@ -44,8 +44,6 @@
 
   </div>
 </div>
-
-
 <!-- footer -->
 
 <?php require 'footer.php';?>

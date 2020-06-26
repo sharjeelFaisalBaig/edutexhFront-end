@@ -470,3 +470,10 @@ li.ms-nav-item.dropdown {
   padding-top: 3px;
 }
 /*--------------------------CHANGES---------------*/
+
+.w-10 {
+  width: 10%;
+}
+.bg-secondary {
+  background: #efefef !important;
+}
