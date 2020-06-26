@@ -1,15 +1,16 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <style>
-    .cstm_ul{
+    .cstm_ul {
         list-style-type: square;
     }
-    .cstm_thead{
-        background-color:#8D0302;
-        color:white;
+
+    .cstm_thead {
+        background-color: #8D0302;
+        color: white;
     }
 </style>
 <!-- Body Content Wrapper -->
@@ -78,18 +79,18 @@
 <div class="modal fade" tabindex="-1" id="modal_archiveStudent" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog">
         <div class="modal-content">
-			<div class="modal-header">
-				<h6 class="modal-title has-icon ms-icon-round">Archive Student</h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-			</div>
-			<div class="modal-body">
+            <div class="modal-header">
+                <h6 class="modal-title has-icon ms-icon-round">Archive Student</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="alert alert-warning my-4 text-center row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 border-right">
                                 <p>Sabiha</p>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 border-right">
                                 <p>Admin No : S2</p>
                             </div>
                             <div class="col-md-4">
@@ -127,22 +128,22 @@
                     </div>
                 </div>
             </div>
-			<div class="modal-footer">
+            <div class="modal-footer">
                 <a id="to_show_2" href="Academic-certificate_individualCertificate_sub.php" class="btn btn-primary d-none">Generate TC</a>
-				<a id="to_hide_2" href="#" onclick="showHide()" class="btn btn-primary">Archive student</a>
+                <a id="to_hide_2" href="#" onclick="showHide()" class="btn btn-primary">Archive student</a>
                 <a class="btn btn-light" data-dismiss="modal">Cancel</a>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="modal fade" tabindex="-1" id="modal_deleteStudent" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog">
         <div class="modal-content">
-			<div class="modal-header">
-				<h6 class="modal-title has-icon ms-icon-round">Delete Student</h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-			</div>
-			<div class="modal-body">
+            <div class="modal-header">
+                <h6 class="modal-title has-icon ms-icon-round">Delete Student</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
                 <div class="row mt-4">
                     <div class="col-md-11 offset-md-1">
                         <i class="fas fa-exclamation-triangle text-warning d-inline"></i>
@@ -160,18 +161,19 @@
                     </div>
                 </div>
             </div>
-			<div class="modal-footer">
+            <div class="modal-footer">
                 <a class="btn btn-light" data-dismiss="modal">Cancel</a>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
 <script>
     var to_show_var1 = document.getElementById("to_show").classList;
     var to_show_var2 = document.getElementById("to_show_2").classList;
     var to_hide_var1 = document.getElementById("to_hide").classList;
     var to_hide_var2 = document.getElementById("to_hide_2").classList;
-    function showHide(){
+
+    function showHide() {
         to_show_var1.remove("d-none");
         to_show_var2.remove("d-none");
         to_hide_var1.add("d-none");
@@ -180,6 +182,6 @@
 </script>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->

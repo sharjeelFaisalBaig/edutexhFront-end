@@ -14,30 +14,41 @@
     <div class="row">
         <div class="col-md-12 m-auto">
             <div class="ms-panel-header">
-                <h6 class="my-4 d-md-inline"><b>Students Info | </b><small>Additional Details</small></h6>
+                <h6 class="my-4 d-md-inline"><b>Employees | </b><small>Additional Details</small></h6>
                 <div class="float-md-right">
-                    <a href="#" role="button" id="dropdownMenuLink_profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Profile</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_profile">
-                    <a class="dropdown-item" href="Academic-employee_generalProfile.php">General Profile</a>
-                        <a class="dropdown-item" href="Academic-employee_personalProfile.php">Personal Details</a>
-                        <a class="dropdown-item" href="Academic-employee_addressProfile.php">Address Details</a>
-                        <a class="dropdown-item" href="Academic-employee_contactProfile.php">Contact Details</a>
-                        <a class="dropdown-item" href="Academic-employee_bankProfile.php">Bank Details</a>
+                    <div class="dropdown d-inline">
+                        <a href="#" role="button" id="dropdownMenuLink_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Profile</a>
+                        <div class="dropdown-menu dropdownMenuLink_1" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="Academic-employee_generalProfile.php">General Profile</a>
+                            <a class="dropdown-item" href="Academic-employee_personalProfile.php">Personal Details</a>
+                            <a class="dropdown-item" href="Academic-employee_addressProfile.php">Address Details</a>
+                            <a class="dropdown-item" href="Academic-employee_contactProfile.php">Contact Details</a>
+                            <a class="dropdown-item" href="Academic-employee_bankProfile.php">Bank Details</a>
+                        </div>
                     </div>
-                    <a href="#" role="button" id="dropdownMenuLink_salary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Salary</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_salary">
-                        <a class="dropdown-item" href="#">abc</a>
-                        <a class="dropdown-item" href="#">xyz</a>
+                    <div class="dropdown d-inline">
+                        <a href="#" role="button" id="dropdownMenuLink_2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Salary</a>
+                        <div class="dropdown-menu dropdownMenuLink_2" aria-labelledby="dropdownMenuLink_2">
+                            <a class="dropdown-item" href="Academic-employee_payroll.php">Payroll</a>
+                            <a class="dropdown-item" href="Academic-employee_payslip.php">Pay Slip</a>
+                        </div>
                     </div>
-                    <a href="#" role="button" id="dropdownMenuLink_leave" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Leaves</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_leave">
-                        <a class="dropdown-item" href="#">abc</a>
-                        <a class="dropdown-item" href="#">xyz</a>
+                    <div class="dropdown d-inline">
+                        <a href="#" role="button" id="dropdownMenuLink_3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="  dropdown-toggle mt-1 btn btn-primary">Leaves</a>
+                        <div class="dropdown-menu dropdownMenuLink_3" aria-labelledby="dropdownMenuLink_3">
+                            <a class="dropdown-item" href="Academic-employee_leaves.php">Leaves</a>
+                            <a class="dropdown-item" href="Academic-employee_Applyleave.php">Apply Leave</a>
+                        </div>
                     </div>
-                    <a href="#" class="btn btn-primary mt-1 ">Delete</a>
-                    <a class="btn btn-primary dropdown-toggle  mt-1 " href="#" role="button" id="dropdownMenuLink_more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_more">
-                        <a class="dropdown-item" href="#">abc</a>
+                    <a href="Academic-employee_remove.php" class="btn btn-primary mt-1">Delete</a>
+                    <div class="dropdown d-inline">
+                        <a class="dropdown-toggle mt-1 btn btn-primary " id="dropdownMenuLink_4" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                        <div class="dropdown-menu dropdownMenuLink_4" aria-labelledby="dropdownMenuLink_4">
+                            <a class="dropdown-item" href="Academic-employee_timeTable.php">Time Table</a>
+                            <a class="dropdown-item" href="Academic-employee_library.php">Library</a>
+                            <a class="dropdown-item" href="Academic-employee_transport.php">Transport</a>
+                            <a class="dropdown-item" href="Academic-employee_activities.php">Activities</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,7 +58,7 @@
                 <ol class="breadcrumb pl-0">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <li class="breadcrumb-item"><a href="Academic_sub.php">Academic</a></li>
-                    <li class="breadcrumb-item"><a href="#">Employee</a></li>
+                    <li class="breadcrumb-item"><a href="Academic-employee_generalProfile.php">Employee</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Additional Details</li>
                 </ol>
             </nav>

@@ -1,15 +1,16 @@
 <!-- header -->
 
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 
 <!-- header -->
 <style>
-    .cstm_ul{
+    .cstm_ul {
         list-style-type: square;
     }
-    .cstm_thead{
-        background-color:#8D0302;
-        color:white;
+
+    .cstm_thead {
+        background-color: #8D0302;
+        color: white;
     }
 </style>
 <!-- Body Content Wrapper -->
@@ -56,7 +57,7 @@
         <div class="row mt-2">
             <div class="col-md-3">
                 <div class="text-center cstm_border">
-                <i class="fas fa-user  fa-10x"></i>
+                    <i class="fas fa-user  fa-10x"></i>
                 </div>
             </div>
         </div>
@@ -67,16 +68,16 @@
                         <tbody>
                             <tr>
                                 <th class="cstm_thead">Name</th>
-                                <td>Maira</td> 
+                                <td>Maira</td>
                             </tr>
                             <tr>
                                 <th class="cstm_thead">Relation</th>
-                                <td>Mother</td> 
+                                <td>Mother</td>
                             </tr>
                             <tr>
                                 <th class="cstm_thead">Date Of Birth</th>
                                 <td>12 june 2004</td>
-                            </tr>    
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -86,6 +87,6 @@
 </div>
 <!-- footer -->
 
-<?php require 'footer.php';?>
+<?php require 'footer.php'; ?>
 
 <!-- footer -->
