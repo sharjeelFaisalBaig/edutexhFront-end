@@ -114,7 +114,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height130">
         <div class="ms-card-body">
-          <a href="Academic-GradeBook_reports_sub.php">
+          <a href="Institutionaltimetable.php">
             <h5>Institutional Timetable</h5>
             <p>View the entire timetable for a day</p>
           </a>

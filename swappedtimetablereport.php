@@ -27,7 +27,7 @@
     <div class="row">
        <div class="col-md-12">
             <div class="ms-panel-header pt-0">
-                <h6 class="d-md-inline"><i class="fas fa-clock"></i> Time Table</h6> |  <small>Swapped Timetable</small>
+                <h6 class="d-md-inline"><i class="fas fa-clock"></i> Time Table</h6> |  <small>Swapped Timetable Report</small>
                 <div class="clearfix"></div>
             </div>
         </div>

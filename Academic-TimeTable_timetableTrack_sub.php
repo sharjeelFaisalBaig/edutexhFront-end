@@ -22,9 +22,9 @@
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="TimetableTracker-SwapTimetable.php">
             <h5>Swap Timetable</h5>
             <p>Manage Timetable Swapping</p>
           </a>
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
           <a href="swappedtimetablereport.php">
             <h5>Swapped Timetable Report</h5>

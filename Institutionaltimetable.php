@@ -44,382 +44,349 @@ li{
 </style>
 <div class="ms-content-wrapper">
 	<div class="row">
-        <div class="col-md-10">
-            <h6 class="d-md-inline"><i class="fas fa-clock"></i> Time Table</h6> |  <small>Manage Timetables</small>
-        </div>
-        <div class="col-md-2">
-            <a href="TimetableActivities.php" class="btn btn-primary">Activities</a>
-        </div>
-        <div class="col-md-12">
-            <hr>
-        </div>
+		<div class="col-md-12">
+			<div class="ms-panel-header pt-0">
+				<h6 class="d-md-inline"><i class="fas fa-clock"></i> Time Table</h6> |  <small>Institutional Timetable</small>
+				<div class="clearfix"></div>
+			</div>
+		</div>
 		<div class="col-md-8">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb pl-0">
 					<li class="breadcrumb-item"><a href="index.php">Home</a></li>
 					<li class="breadcrumb-item"><a href="Academic-TimeTable_sub.php">Timetable</a></li>
-					<li class="breadcrumb-item active" aria-current="page"> Manage Timetable</li>
+					<li class="breadcrumb-item active" aria-current="page"> Institutional Timetable</li>
 				</ol>
 			</nav>
 		</div>
-	<div class="col-md-12">
-        <div class="col-md-10 my-4 ms-panel-body">
-            <div class="form-group row my-3">
-                <label class="col-sm-3 col-form-label">Timetable</label>
-                <div class="col-sm-4">
-                    <select class="form-control">
-                        <option>01 May 2020-31 May 2020G1-A-2010</option>
-                    </select>
+    	<div class="col-md-12">
+            <div class="row text-center calendarCustom mb-4">
+                <div class="col-md-4 text-right">
+                    <a href="">
+                        <i class="fas fa-chevron-circle-left"></i>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="" readonly="" name="" value="May 2020" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <a href="">
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </a>
                 </div>
             </div>
-            <div class="form-group row my-3">
-                <label class="col-sm-3 col-form-label">Batch</label>
-                <div class="col-sm-4">
-                    <select class="form-control">
-                        <option>G1-A-2010</option>
-                    </select>
-                </div>
-            </div>
-        </div>
         <div class="ms-panel w-100">
             <div class="ms-panel-body">
                 <div class="">
                     <table class="table timesheet">
                         <tbody>
                         <tr>
-                            <td class="transformtext">
-                               Mon
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="transformtext">
-                               Break <br><p>30 Min</p>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
                            <td>
                                 <div class="card spcard">
                                     <div class="card-body">
                                         <ul>
-                                            <li><input type="checkbox" name="">
+                                            <li>Time
                                             </li>
-                                            <li><small class="mysmall">08:00 AM - 09:00 AM</small></li>
+                                            <li><small class="mysmall">G1-A-2-10</small></li>
                                             
                                         </ul>
                                     </div>
                                 </div>
-                            </td>  
+                            </td> 
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td> 
                         </tr>
                         <tr>
-                            <td class="transformtext">
-                               Tues
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="transformtext">
-                               Break <br><p>30 Min</p>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
+                           <td>
                                 <div class="card spcard">
                                     <div class="card-body">
                                         <ul>
-                                            <li><input type="checkbox" name="">
+                                            <li>Time
                                             </li>
-                                            <li><small class="mysmall"> 08:00 AM - 09:00 AM</small></li>
+                                            <li><small class="mysmall">G1-B-2-10</small></li>
                                             
                                         </ul>
                                     </div>
                                 </div>
-                            </td>  
+                            </td> 
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td> 
                         </tr>
                         <tr>
-                            <td class="transformtext">
-                               Wed
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="transformtext">
-                               Break <br><p>30 Min</p>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
+                           <td>
                                 <div class="card spcard">
                                     <div class="card-body">
                                         <ul>
-                                            <li><input type="checkbox" name="">
+                                            <li>Time
                                             </li>
-                                            <li><small class="mysmall">08:00 AM - 09:00 AM</small></li>
+                                            <li><small class="mysmall">G1-C-2-10</small></li>
                                             
                                         </ul>
                                     </div>
                                 </div>
-                            </td>  
+                            </td> 
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr >
-                            <td class="transformtext">
-                               Thurs
-                            </td>
-                            <td>
-                                <div class="card">
+                           <td>
+                                <div class="card spcard">
                                     <div class="card-body">
                                         <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
+                                            <li>Time
                                             </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="transformtext">
-                               Break <br><p>30 Min</p>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body spcard">
-                                        <ul>
-                                            <li><input type="checkbox" name="">
-                                            </li>
-                                            <li><small class="mysmall">08:00 AM - 09:00 AM</small></li>
+                                            <li><small class="mysmall">G1-D-2-10</small></li>
                                             
                                         </ul>
                                     </div>
                                 </div>
-                            </td>  
+                            </td> 
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td> 
                         </tr>
                         <tr>
-                            <td class="transformtext">
-                               Fri
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="transformtext">
-                               Break <br><p>30 Min</p>
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul>
-                                            <li><input type="checkbox" name=""><small>08:00 AM - 09:00 AM</small>
-                                            </li>
-                                            <li>English</li>
-                                            <li>Assadullah..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
+                           <td>
                                 <div class="card spcard">
                                     <div class="card-body">
                                         <ul>
-                                            <li><input type="checkbox" name="">
+                                            <li>Time
                                             </li>
-                                            <li><small class="mysmall">08:00 AM - 09:00 AM</small></li>
+                                            <li><small class="mysmall">G1-E-2-10</small></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td> 
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><small>08:00 AM - 09:00 AM</small>
+                                            </li>
+                                            <li>English</li>
+                                            <li>Assadullah..</li>
                                         </ul>
                                     </div>
                                 </div>
