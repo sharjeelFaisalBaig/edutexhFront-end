@@ -34,7 +34,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center">
         <div class="ms-card-body">
-          <a href="Academic-attendance_sub.php">
+          <a href="TimeTable_classAllocate_allocate.php">
             <h5>Allocate</h5>
             <p>Allocate Classroom</p>
           </a>

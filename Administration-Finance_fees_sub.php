@@ -28,9 +28,6 @@
           <a href="Administration-Finance_feesCreate_sub.php">
             <h5>Create Fees</h5>
             <p>Create Master Fees</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
@@ -41,9 +38,6 @@
           <a href="Administration-Finance_feesSchedule_sub.php">
             <h5>Schedule Fee Collection Dates</h5>
             <p>Create new fee collecting dates</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
@@ -54,9 +48,6 @@
           <a href="Administration-Finance_feesCollect_sub.php">
             <h5>Collect the Fees</h5>
             <p>Fee Submission</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
@@ -64,7 +55,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height150">
         <div class="ms-card-body">
-          <a href="Administration-attendance_sub.php">
+          <a href="finance-fee-structure.php">
             <h5>Fee Structure</h5>
             <p>Displays fee structure for student</p>
           </a>
@@ -74,7 +65,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height150">
         <div class="ms-card-body">
-          <a href="Administration-attendance_sub.php">
+          <a href="finance-fee-defaulters.php">
             <h5>Fees Defaulters</h5>
             <p>Students with fees due</p>
           </a>
@@ -87,9 +78,6 @@
           <a href="Administration-Finance_feesRefund_sub.php">
             <h5>Fees Refund</h5>
             <p>Lists all refunds</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
@@ -100,9 +88,6 @@
           <a href="Administration-Finance_feesReport_sub.php">
             <h5>Students Fees Head-wise Report</h5>
             <p>Generates Students Fees Head-wise Report</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>
@@ -110,7 +95,7 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height150">
         <div class="ms-card-body">
-          <a href="Administration-attendance_sub.php">
+          <a href="finance-fee-import.php">
             <h5>Fee Imports</h5>
             <p>Manage all imported fees for any student</p>
           </a>
@@ -120,12 +105,9 @@
     <div class="col-lg-3 col-md-6 col-sm-6">
       <div class="text-center height150">
         <div class="ms-card-body">
-          <a href="Administration-attendance_sub.php">
+          <a href="finance-instant-fee_sub.php">
             <h5>Instant Fees</h5>
             <p>Manage Instant Fees</p>
-            <div class="bounce">
-              <i class="fas fa-angle-double-down"></i>
-            </div>
           </a>
         </div>
       </div>

@@ -17,42 +17,43 @@
           <li class="breadcrumb-item"><a href="Administration_sub.php">Administration</a></li>
           <li class="breadcrumb-item"><a href="Administration-Finance_sub.php">Finance</a></li>
           <li class="breadcrumb-item"><a href="Administration-Finance_fees_sub.php">Fees</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Fees Refund</li>
+          <li class="breadcrumb-item active" aria-current="page">Instant Fees</li>
         </ol>
       </nav>
     </div>
 
 
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Finance_feesRefund_view.php">
-            <h5>View refunds</h5>
-            <p>Lists all refunds</p>
+          <a href="finance-manage-instantfees.php">
+            <h5>Manage Instant Fees</h5>
+            <p>Manage Instant Fees</p>
           </a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Finance_feesRefund_rule.php">
-            <h5>Create refund rule</h5>
-            <p>Create refund rules for fee collections</p>
+          <a href="finance-pay-fees.php">
+            <h5>Pay Fees</h5>
+            <p>Pay Fees</p>
           </a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Finance_feesRefund_apply.php">
-            <h5>Apply refund</h5>
-            <p>Apply/Revert refund for student</p>
+          <a href="finance-transaction-fee.php">
+            <h5>Transaction</h5>
+            <p>Manage Transaction</p>
           </a>
         </div>
       </div>
     </div>
+
   </div>
 </div>
 
