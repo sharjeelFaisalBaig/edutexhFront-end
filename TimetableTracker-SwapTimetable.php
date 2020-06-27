@@ -41,6 +41,7 @@
 				</ol>
 			</nav>
 		</div>
+	</div>
 		<div class="col-md-8 m-auto">
 			<div class=" w-100">
 				<div id="stddiv">

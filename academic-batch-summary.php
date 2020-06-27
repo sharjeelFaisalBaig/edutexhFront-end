@@ -1,4 +1,4 @@
-<?php include_once('header.php')?>
+<?php include_once('header.php') ?>
 
 <div class="ms-content-wrapper">
 	<div class="row">
@@ -20,7 +20,7 @@
 
 			<div class="dropdown d-inline">
 				<button class="btn btn-primary m-auto dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Manage
+					Manage
 				</button>
 				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 					<a class="dropdown-item" href="Academic-SubjectCenter_courseSubject_editSubject_sub.php">Subjects</a>
@@ -33,29 +33,29 @@
 			<div class="ms-panel ms-panel-fh mt-5">
 				<div class="ms-panel-body clearfix">
 					<div class="row">
-                        <div class="col-md-1">
-                            <label class="mt-1">Class</label>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <select class="form-control ">
-                                    <option>Grade 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="offset-md-1 col-md-1">
-                            <label class="mt-1">Batch</label>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <select class="form-control ">
-                                    <option>G2 - A 2020</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-1">
-                        	<a href="" class="btn btn-primary width70 m-auto">Submit</a>
-                        </div>
+						<div class="col-md-1">
+							<label class="mt-1">Class</label>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<select class="form-control ">
+									<option>Grade 2</option>
+								</select>
+							</div>
+						</div>
+						<div class="offset-md-1 col-md-1">
+							<label class="mt-1">Batch</label>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<select class="form-control ">
+									<option>G2 - A 2020</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-1">
+							<a href="" class="btn btn-primary width70 m-auto">Submit</a>
+						</div>
 
 
 					</div>
@@ -71,11 +71,11 @@
 
 					<div class="ms-card p-3">
 						<ul class="nav nav-tabs d-flex nav-justified mb-4" role="tablist">
-							<li role="presentation" ><a href="#tab13" aria-controls="tab13" class="active" role="tab" data-toggle="tab">Students</a></li>
-							<li role="presentation" ><a href="#tab14" aria-controls="tab14" role="tab" data-toggle="tab">Attendance </a></li>
-							<li role="presentation" ><a href="#tab15" aria-controls="tab15" role="tab" data-toggle="tab">Subject and Employee Allocation</a></li>
-							<li role="presentation" ><a href="#tab16" aria-controls="tab16" role="tab" data-toggle="tab">Timetables and Activities</a></li>
-							<li role="presentation" ><a href="#tab17" aria-controls="tab17" role="tab" data-toggle="tab">Examinations</a></li>
+							<li role="presentation"><a href="#tab13" aria-controls="tab13" class="active" role="tab" data-toggle="tab">Students</a></li>
+							<li role="presentation"><a href="#tab14" aria-controls="tab14" role="tab" data-toggle="tab">Attendance </a></li>
+							<li role="presentation"><a href="#tab15" aria-controls="tab15" role="tab" data-toggle="tab">Subject and Employee Allocation</a></li>
+							<li role="presentation"><a href="#tab16" aria-controls="tab16" role="tab" data-toggle="tab">Timetables and Activities</a></li>
+							<li role="presentation"><a href="#tab17" aria-controls="tab17" role="tab" data-toggle="tab">Examinations</a></li>
 						</ul>
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active show fade in" id="tab13">
@@ -141,11 +141,11 @@
 									</div>
 									<div class="offset-md-4 col-md-5 text-md-right">
 										<div class="date-div">
-                                            <button class="next" id="prev"><i class="fas fa-chevron-left"></i></button>
-                                            <input  type="text" id="datepicker" >
-                                            <button class="prev" id="next"><i class="fas fa-chevron-right"></i></button>
-                                            <i class="far fa-calendar-alt"></i>
-                                        </div>
+											<button class="next" id="prev"><i class="fas fa-chevron-left"></i></button>
+											<input type="text" id="datepicker">
+											<button class="prev" id="next"><i class="fas fa-chevron-right"></i></button>
+											<i class="far fa-calendar-alt"></i>
+										</div>
 									</div>
 								</div>
 
@@ -263,11 +263,11 @@
 									</div>
 									<div class="offset-md-4 col-md-5 text-md-right">
 										<div class="date-div">
-                                            <button class="next" id="prev"><i class="fas fa-chevron-left"></i></button>
-                                            <input  type="text" id="datepicker">
-                                            <button class="prev" id="next"><i class="fas fa-chevron-right"></i></button>
-                                            <i class="far fa-calendar-alt"></i>
-                                        </div>
+											<button class="next" id="prev"><i class="fas fa-chevron-left"></i></button>
+											<input type="text" id="datepicker">
+											<button class="prev" id="next"><i class="fas fa-chevron-right"></i></button>
+											<i class="far fa-calendar-alt"></i>
+										</div>
 									</div>
 								</div>
 								<div class="table-responsive mb-4">
@@ -324,7 +324,6 @@
 									</table>
 								</div>
 							</div>
-
 							<div role="tabpanel" class="tab-pane show fade in" id="tab17">
 								<div class="row">
 									<div class="col-md-2 text-md-center">
@@ -375,4 +374,4 @@
 
 
 </div>
-<?php include_once('footer.php')?>
+<?php include_once('footer.php') ?>

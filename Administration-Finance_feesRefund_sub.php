@@ -26,7 +26,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-Finance_feesRefund_view.php">
             <h5>View refunds</h5>
             <p>Lists all refunds</p>
           </a>
@@ -36,7 +36,7 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-Finance_feesRefund_rule.php">
             <h5>Create refund rule</h5>
             <p>Create refund rules for fee collections</p>
           </a>
@@ -46,14 +46,13 @@
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="ms-card text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-Finance_feesRefund_apply.php">
             <h5>Apply refund</h5>
             <p>Apply/Revert refund for student</p>
           </a>
         </div>
       </div>
     </div>
-
   </div>
 </div>
 

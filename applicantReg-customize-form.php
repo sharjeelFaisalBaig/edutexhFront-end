@@ -1,10 +1,10 @@
-<?php require_once('header.php')?>
+<?php require_once('header.php') ?>
 
 <div class="ms-content-wrapper">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="ms-panel-header pt-0">
-				<h6 class="d-md-inline"><i class="fas fa-user-alt"></i> Applicant Registration</h6> |  <small>Customize Form</small>
+				<h6 class="d-md-inline"><i class="fas fa-user-alt"></i> Applicant Registration</h6> | <small>Customize Form</small>
 				<div class="float-md-right">
 					<a href="javascript:void(0);" data-toggle="modal" data-target="#modal-1" class="btn btn-success m-md-auto">Add New Section</a>
 					<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg2" class="btn btn-success m-md-auto">Reorder Sections</a>
@@ -33,8 +33,8 @@
 						<p class="font-weight-bold">Student Personal Details</p>
 					</div>
 					<div class="col-md-6 text-md-right font-weight-bold">
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
 					</div>
 				</div>
 				<div class="table-responsive">
@@ -134,7 +134,7 @@
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">
-							Sibling Information &nbsp;&nbsp;&nbsp; 
+							Sibling Information &nbsp;&nbsp;&nbsp;
 							<a href="javascript:void(0);">Edit</a>&nbsp;&nbsp;&nbsp;
 							<a href="javascript:void(0);">Delete</a>
 						</p>
@@ -165,14 +165,14 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">Student Communication Details</p>
 					</div>
 					<div class="col-md-6 text-md-right font-weight-bold">
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
 					</div>
 				</div>
 				<div class="table-responsive">
@@ -293,11 +293,11 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">
-							Elective Subjects 
+							Elective Subjects
 						</p>
 					</div>
 				</div>
@@ -331,14 +331,14 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->		
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">Previous Institution Details</p>
 					</div>
 					<div class="col-md-6 text-md-right font-weight-bold">
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
 					</div>
 				</div>
 				<div class="table-responsive">
@@ -404,12 +404,12 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->	
+				<!-- --------------------------------------------------------------------------------- -->
 				<h6 class="mt-4">Guardian Details</h6>
 				<small>Guardian details of the applicant can be collected in this section</small>
 				<br>
 				<div class="form-group mt-2">
-				<label class="d-inline">Number of Mandatory Guardian Details</label>
+					<label class="d-inline">Number of Mandatory Guardian Details</label>
 					<select class="form-control d-inline" style="width: 70px;">
 						<option>1</option>
 					</select>
@@ -420,8 +420,8 @@
 						<p class="font-weight-bold">Guardian Personal Details</p>
 					</div>
 					<div class="col-md-6 text-md-right font-weight-bold">
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
 					</div>
 				</div>
 				<div class="table-responsive">
@@ -520,14 +520,14 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">Guardian Contact Details</p>
 					</div>
 					<div class="col-md-6 text-md-right font-weight-bold">
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
-						<a href="javascript:void(0);"  data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg3">Reorder Fields</a> &nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add New Fields</a>
 					</div>
 				</div>
 				<div class="table-responsive">
@@ -648,11 +648,11 @@
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4">
 					<div class="col-md-6">
 						<p class="font-weight-bold">
-							Sibling Information &nbsp;&nbsp;&nbsp; 
+							Sibling Information &nbsp;&nbsp;&nbsp;
 							<a href="javascript:void(0);">Edit</a>&nbsp;&nbsp;&nbsp;
 						</p>
 					</div>
@@ -688,14 +688,14 @@
 									<input class="form-check-input ml-0" type="checkbox" id="" value="">
 								</td>
 								<td>
-									<a href="javascript">Edit</a> | 
+									<a href="javascript">Edit</a> |
 									<a href="javascript">Delete</a>
 								</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-			<!-- --------------------------------------------------------------------------------- -->
+				<!-- --------------------------------------------------------------------------------- -->
 				<div class="row mt-4 mb-3">
 					<div class="col-md-10">
 						<p class="font-weight-bold">Attachments</p>
@@ -765,14 +765,14 @@
 									<input class="form-check-input ml-0" type="checkbox" id="" value="">
 								</td>
 								<td>
-									<a href="javascript">Edit</a> | 
+									<a href="javascript">Edit</a> |
 									<a href="javascript">Delete</a>
 								</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-			<!-- ---------------------------------------------------------------------------------- -->
+				<!-- ---------------------------------------------------------------------------------- -->
 				<div class="row mt-4 mb-3">
 					<div class="col-md-10">
 						<p class="font-weight-bold">Administration Section</p>
@@ -879,7 +879,7 @@
 							<label>Record Type</label>
 							<select class="form-control w-100">
 								<option>Alphanumeric (A-Z, 0-9)</option>
-							</select>		
+							</select>
 						</div>
 						<div class="col-md-6 mt-3">
 							<label>Input Suffix</label>
@@ -987,7 +987,7 @@
 
 						</div>
 					</div>
-				</div>  
+				</div>
 			</div>
 
 			<div class="modal-footer">
@@ -1067,7 +1067,7 @@
 
 						</div>
 					</div>
-				</div>  
+				</div>
 			</div>
 
 			<div class="modal-footer">
@@ -1123,4 +1123,4 @@
 	</div>
 </div>
 
-<?php include_once('footer.php')?>
+<?php include_once('footer.php') ?>
