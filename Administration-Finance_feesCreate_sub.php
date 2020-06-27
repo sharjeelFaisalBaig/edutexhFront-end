@@ -24,9 +24,9 @@
 
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-finance_fees-createcategory.php">
             <h5>Create category</h5>
             <p>Create Master Category</p>
           </a>
@@ -34,9 +34,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-finance_fees-createparticulars.php">
             <h5>Create Particulars</h5>
             <p>Create Particulars</p>
           </a>
@@ -44,9 +44,9 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
-          <a href="Administration-Fees_sub.php">
+          <a href="Administration-finance_fees-creatediscount.php">
             <h5>Create Discount</h5>
             <p>Create Fee Discounts</p>
           </a>
@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center">
+      <div class="text-center">
         <div class="ms-card-body">
           <a href="Administration-Fees_sub.php">
             <h5>Generate Fine</h5>

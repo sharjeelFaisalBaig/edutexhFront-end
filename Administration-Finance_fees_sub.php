@@ -23,7 +23,7 @@
 
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-Finance_feesCreate_sub.php">
             <h5>Create Fees</h5>
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-Finance_feesSchedule_sub.php">
             <h5>Schedule Fee Collection Dates</h5>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-Finance_feesCollect_sub.php">
             <h5>Collect the Fees</h5>
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-attendance_sub.php">
             <h5>Fee Structure</h5>
@@ -72,7 +72,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-attendance_sub.php">
             <h5>Fees Defaulters</h5>
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-Finance_feesRefund_sub.php">
             <h5>Fees Refund</h5>
@@ -95,7 +95,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-Finance_feesReport_sub.php">
             <h5>Students Fees Head-wise Report</h5>
@@ -108,7 +108,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-attendance_sub.php">
             <h5>Fee Imports</h5>
@@ -118,7 +118,7 @@
       </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
-      <div class="ms-card text-center height150">
+      <div class="text-center height150">
         <div class="ms-card-body">
           <a href="Administration-attendance_sub.php">
             <h5>Instant Fees</h5>

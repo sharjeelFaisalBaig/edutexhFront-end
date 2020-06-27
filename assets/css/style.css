@@ -7496,3 +7496,6 @@ body:not(.ms-settings-open) .ms-settings-toggle:hover{
 .marginRight {
     margin-right: 10px;
 }
+.marginLeft {
+    margin-left: 10px;
+}
