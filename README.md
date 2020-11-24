@@ -1,2 +1,3 @@
 # edutexhFront-end
-education managing portal ERP
+education managing portal ERP 
+edu texh front-end complete
